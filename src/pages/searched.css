@@ -1,0 +1,54 @@
+.GRID{
+    display:grid;
+   grid-template-columns:repeat(auto-fit, minmax(20rem,1fr));
+   grid-gap:3rem;
+   padding:0 15%;
+}
+.CARD{
+    max-width: 100%;
+    overflow: hidden;
+}
+.CARD img{
+    width:80%;
+    border-radius:2rem;
+    margin: auto;
+    transition: 0.5s ease;
+}
+.CARD img:hover{
+    transform: scale(0.9);
+    box-shadow: 0 0 5px 5px rgb(255, 102, 0);
+}
+.CARD a{
+    text-decoration: none;
+}
+.CARD h4{
+    text-align: center;
+    padding: 1rem;
+}
+@media only screen and (max-width: 983px){
+    .GRID{
+        padding: 0% 10%;
+    }
+    /* .CARD img{
+        padding-left: 20%;
+    } */
+}
+@media only screen and (max-width: 860px){
+    .GRID{
+        padding: 0% 8%;
+    }
+}
+@media only screen and (max-width: 819px){
+    .CARD img{
+        margin-left:10%;
+    }
+}
+@media only screen and (max-width: 350px){
+    .GRID{
+        padding: 0%;
+    }
+    .CARD{
+        width: 90%;
+    }
+}
+

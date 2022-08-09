@@ -1,0 +1,166 @@
+.Div{
+  display:flex;
+  background-color:black;
+}
+.formstyle{
+    margin:auto;
+   position:relative;
+   right:0%;
+   padding:0%;
+}
+.form{
+    width:170%;
+    position:relative;
+    right:35%;
+}
+.form input{
+    font-size:1.5rem;
+    color:gray;
+    padding:1rem 2rem 1rem 3rem;
+    border:none;
+    border-radius:1rem;
+    outline:none;
+    width:100%; 
+}
+.form svg{
+    position:absolute;
+       top:50%;
+       left:0%;
+       transform:translate(100%,-50%);
+       color:black;
+}
+.nav{
+  padding:4rem 0% 4rem 10%;
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  position: relative;
+  /* max-width: fit-content; */
+  margin: 0%;
+  overflow: hidden;
+}
+.nav svg{
+    font-size:4rem;
+    color:orange; 
+}
+.signup{
+    display: flex;
+}
+.heart{
+    padding:5rem 2rem 4rem 0rem;
+    font-size:2rem;
+    color:white;
+    position: relative;  
+}
+/* .BTN{
+    position: relative;
+} */
+.Btn{
+    width: 100px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    margin:5rem 12rem 4rem 0;
+    background-color:orange;
+    color:black;
+    font-weight:bold;
+    position: relative;
+    overflow: hidden;
+}
+@media only screen and (max-width: 1282px) {
+    .form{
+        width:130%;
+        right:10%;
+    }
+} 
+@media only screen and (max-width: 1200px) {
+    .Btn{
+        margin-right: 8rem;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .Btn{
+        margin-right: 4rem;
+    }
+}
+@media only screen and (max-width: 1030px){
+    .nav{
+        padding-left: 5%;
+    }
+}
+@media only screen and (max-width: 960px){
+    .form{
+        width:120%;
+    }
+}
+@media only screen and (max-width: 870px){
+    .form{
+        width:100%;
+        right: 5%;
+    }
+}
+@media only screen and (max-width: 830px){
+    .Div{
+        display: block;
+    }
+    .form{
+        width: 50%;
+        left: 20%;
+    }
+    .nav{
+        left: 30%;
+        padding-bottom: 2rem;
+         width: fit-content;
+        /*margin-right: 1rem; */
+       overflow: hidden;
+    }
+    .signup{
+        display: flex;
+        position: relative;
+    }
+    .heart{
+        left: 35%;
+        right: 70%;
+        padding: 2rem 0;
+    }
+    
+    .Btn{
+        position: absolute;
+        left: 41%;
+        top:30%;
+        margin: 0 0 2rem 0;
+    }
+    .nav svg{
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 640px){
+    .Btn{
+        width: 80px;
+        left: 43%;
+        top: 30%;
+    }
+    .form input{
+        padding:.5rem 2rem .5rem 3rem;
+        font-size: 1rem;
+    }
+
+}
+@media only screen and (max-width: 460px){
+    .Btn{
+        left: 40%;
+    }
+    .nav{
+        left: 20%;
+    }
+    .heart{
+        left: 30%;
+    }
+}
+@media only screen and (max-width: 380px){
+    .heart{
+        left: 27%;
+    }
+}

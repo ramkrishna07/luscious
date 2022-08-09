@@ -1,0 +1,177 @@
+.wrapper{
+  background-color: black;
+  padding:0 15%;
+}
+.headingbar{
+  padding-bottom:2rem;
+  display:block;
+  justify-content:flex-start; 
+  align-items:center;
+}
+.headingbar svg{
+      font-size:2rem;
+      color:orange;
+}
+h2,h4{
+  color: white;
+}
+.Logo{
+  text-decoration:none;
+  font-size:1.5rem;
+  font-weight:400;
+  color: white;
+  font-family:'Lobster Two',cursive;
+}
+.signupbar,.linkbar{
+    display: flex;
+}
+.searchbar div input{
+  color: gray;
+  outline:none;
+  padding: .6rem 2.5rem;
+}
+.btn{
+  width: 100px;
+}
+.Button{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    margin: 0%;
+}
+.searchbar div{
+    width:100%;
+    position:relative;
+    height: 20px;
+    margin-right: 1rem;
+}
+.searchbar input{
+ font-size:1rem;
+ color:white;
+ padding:.5rem 2rem;
+ border:1px solid gray;
+ border-radius:1rem;
+ outline:none;
+ width:300px;
+}
+
+.searchbar svg{
+    position:absolute;
+    top:90%;
+    left:0%;
+    transform:translate(100%,-50%);
+    color:black;
+}
+
+.linkbar{
+    margin-top: 2rem;
+}
+ul{
+    display: flex;
+}
+li{
+    padding: 0 .5rem;
+    list-style: none;
+}
+.linkbar svg{
+    color:orange;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.copyright {
+    color: #22eaaa;
+  }
+  
+  .footer-copyright {
+    padding-bottom: 50px;
+  }
+  
+  
+  .columns {
+  padding-left: 10%;
+  text-align: left;
+  }
+  
+  .meals li:hover{
+    color: #fff;
+    transform: scale(1.1);
+    text-decoration: line-through;
+  }
+  
+  .rows {
+    width: 100%;
+    display: absolute;
+    display: flex;
+    padding-top: 7%;
+    /* padding-left: 15%; */
+    padding-bottom: 5%;
+  }
+  
+  .hr-tag {
+    border-color: #fff;
+    border-width: 2px;
+    width: 20%;
+  }
+  
+  .meals{
+    display: block;
+  }
+  .meals li{
+    padding: 2% 2%;
+  }
+  @media only screen and (max-width:960px){
+    .wrapper{
+      padding: 0% 10%;
+    }
+  }
+  @media only screen and (max-width:830px){
+    .signupbar{
+      display: block;
+    }
+    .searchbar{
+      padding-bottom: 2rem;
+    }
+  }
+  @media only screen and (max-width:690px){
+    .searchbar input{
+      width: 200px;
+    }
+    .headingbar{
+      padding-bottom: 1rem;
+    }
+    .linkbar svg{
+      font-size: x-large;
+    }
+    .linkbar li{
+      padding: 0 .3rem;
+    }
+    .columns{
+      padding-left: 6%;
+    }
+  }
+  @media only screen and (max-width:500px){
+    .rows{
+      display: block;
+    }
+    .wrapper{
+      padding: 0 15% 0 25%;
+    }
+    .columns{
+      padding-top: 10%;
+    }
+  }
+  @media only screen and (max-width:380px){
+    .searchbar input{
+      padding: 0 2rem;
+    }
+    .linkbar h4{
+      display: none;
+    }
+  }

@@ -1,0 +1,66 @@
+.DetailWrapper{
+    width:100%;
+    display:flex;
+    margin-top:10rem;
+    margin-bottom:5rem;
+    padding:0 10%;
+}
+.DetailWrapper.active{
+    background-color:orange;
+    color:white;
+    border:none;
+}
+.DetailsLeft{
+    width:50%;
+}
+.DetailsLeft h2{
+    margin-bottom:2rem;
+}
+.DetailsLeft img{
+    width:90%;
+}
+.DetailsRight{
+    width:50%;
+}
+.DetailsRight h3{
+    font-size:medium;
+}
+.DetailsRight li{
+    font-size:1.2rem;
+    line-height:2.5rem;
+    font-weight:bold;
+}
+.DetailsRight ul{
+    margin-top:2rem;
+}
+#Buton{
+    width: 200px;
+    color:#313131;
+    background: gray;
+    border:none;
+    border-radius: 5px;
+    margin-right:2rem;
+    font-weight:600;
+    height:3rem;
+    cursor:pointer;
+}
+#Buton.active{
+    background-color: orange;
+}
+@media only screen and (max-width: 875px){
+    .DetailWrapper{
+        display: block;
+        justify-content: center;
+        padding: 0%;
+    }
+    .btn-container{
+        display: flex;
+    }
+    .DetailsLeft,.DetailsRight{
+        margin: auto;
+    }
+    .DetailsLeft img{
+        width:120%;
+    }
+
+}

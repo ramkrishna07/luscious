@@ -1,0 +1,250 @@
+.carusol{
+    display:flex;
+    /* width:35rem; */
+    position: relative;
+    width: 100%;
+}
+.heading{
+    color:white;
+    position:relative;
+    left:10%;
+
+}
+.heading h1{
+    margin-top:15%;
+    font-family:'Lobster Two',cursive;
+    font-size:3rem;
+}
+.cardaction h4{
+    color: black;
+    text-align: center;
+}
+.carusol img{
+    width:6rem;
+    height:6rem;
+    border-radius:50%;
+    object-fit:cover;
+}
+.list{
+    position:relative;
+    left:20%;
+    top:20%;
+    display:flex;
+    max-width: 35rem;
+    overflow: hidden;
+}
+.grid{
+    display:grid;
+   grid-template-columns:repeat(auto-fit, minmax(25rem,2fr));
+   grid-gap:3rem;
+   align-items:center;
+   padding-left:1%;
+   padding-top:2rem;
+   width:63%;
+   overflow-y:scroll;
+   overflow-x: hidden;
+   height:700px;
+   border:2px solid gray;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+}
+.cardheader{
+   display:flex;
+   background-color:black;
+   width:100%;
+   height:12rem;
+   margin:2rem 0 0rem 0;
+}
+.cardheader svg{
+    color:orange;
+    font-size:4rem;
+    position:relative;
+    left:8%;
+    top:30%;
+}
+.cardimage{
+   width:37%;
+   height:700px;
+}
+.cardimage img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.cardaction img{
+    width:80%;
+    border-radius:2rem;
+    transition: 0.5s ease;
+}
+.cardaction img:hover{
+    transform: scale(0.9);
+    box-shadow: 0 0 5px 5px rgb(255, 102, 0);
+}
+@media only screen and (max-width: 1374px){
+    .cardaction{
+        padding: 2% 2% 0% 15%;
+    }
+    .cardimage{
+        width: 45%;
+    }
+    .grid{
+        width: 55%;
+    }
+}
+ @media only screen and (max-width: 1280px){
+    .list{
+        width: 28rem;
+
+    }
+}
+@media only screen and (max-width: 1140px){
+        .list{
+            left: 10%;
+        }
+        .heading{
+            left: 6%;
+        }
+        .cardheader svg{
+            left: 5%;
+        }
+}
+@media only screen and (max-width: 1010px){
+    .heading h1{
+        font-size: 2.5rem;
+    }
+    .carusol img{
+        width: 4rem;
+        height: 4rem;
+    }
+    .list{
+        width: 25rem;
+        top:28%;
+    }
+}
+@media only screen and (max-width: 880px){
+    .list{
+        width: 20rem;
+    }
+    .cardimage{
+        width: 50%;
+    }
+    .grid{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 790px){
+    .cardheader{
+        display: block;
+    }
+    .heading h1{
+        margin: 0%;
+    }
+    .list{
+        top: -10%;
+        left: 30%;
+    }
+    .heading{
+        left: 30%;
+        bottom: 15%;
+        width: fit-content;
+    }
+    .cardheader svg{
+        left: 20%;
+        top: 20%;
+    }
+}
+@media only screen and (max-width: 750px){
+    .cardaction{
+        padding: 2% 2% 0% 8%;
+    }
+}
+@media only screen and (max-width: 690px){
+    .cardaction{
+        padding: 2% 2% 0% 2%;
+    }
+    .cardaction h4{
+        font-size: small;
+        margin: auto;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 660px){
+    .cardaction img{
+        width: 70%;
+    }
+    .cardaction h4{
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 640px){
+    .cardheader svg{
+        left: 15%;
+    }
+}
+@media only screen and (max-width: 580px){
+    .cardaction img{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .carusol img{
+        width: 3rem;
+        height: 3rem;
+    }
+    .heading h1{
+        font-size: 2rem;
+    }
+    .cardheader svg{
+        font-size: 3rem;
+        top: 15%;
+    }
+    .list{
+        left: 25%;
+    }
+    .cardaction img{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .list{
+        width: 16rem;
+        top: -8%;
+    }
+    .heading{
+        bottom: 12%;
+    }
+    .heading h1{
+        font-size: 1.7rem;
+    }
+    .cardaction h4{
+        font-size: smaller;
+    }
+
+}
+@media only screen and (max-width: 420px){
+    .cardaction img{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 345px){
+    .cardheader svg{
+        left: 8%;
+        font-size: 2.7rem;
+    }
+    .heading{
+        left: 23%;
+    }
+    .list{
+        left: 14%;
+    }
+    .cardaction img{
+        width: 35%;
+    }
+}

@@ -1,0 +1,44 @@
+.grd{
+    display:grid;
+   grid-template-columns:repeat(auto-fit, minmax(20rem,1fr));
+   grid-gap:3rem;
+   padding:0 15%;
+}
+.crd img{
+    width:80%;
+    border-radius:2rem;
+}
+.crd a{
+    text-decoration: none;
+}
+.crd h4{
+    text-align: center;
+    padding: 1rem;
+}
+@media only screen and (max-width: 983px){
+    .grd{
+        padding: 0% 10%;
+    }
+    /* .CARD img{
+        padding-left: 20%;
+    } */
+}
+@media only screen and (max-width: 860px){
+    .grd{
+        padding: 0% 8%;
+    }
+}
+@media only screen and (max-width: 819px){
+    .crd img{
+        margin-left:10%;
+    }
+}
+@media only screen and (max-width: 350px){
+    .grd{
+        padding: 0%;
+    }
+    .crd{
+        width: 90%;
+    }
+}
+

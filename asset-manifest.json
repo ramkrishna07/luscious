@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/luscious/static/css/main.a28e6c30.css",
+    "main.js": "/luscious/static/js/main.ef104b2a.js",
+    "index.html": "/luscious/index.html",
+    "main.a28e6c30.css.map": "/luscious/static/css/main.a28e6c30.css.map",
+    "main.ef104b2a.js.map": "/luscious/static/js/main.ef104b2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a28e6c30.css",
+    "static/js/main.ef104b2a.js"
+  ]
+}

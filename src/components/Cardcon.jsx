@@ -111,103 +111,10 @@ function Cardcon() {
     </>
   )
 }
-// const Carusol=styled.div`
-//   display:flex;
-//   width:35rem;
-// `
-// const Heading=styled.div`
-//   color:white;
-//   // background-color:red;
-//   position:relative;
-//   left:10%;
-//      h1{
-//       margin-top:15%;
-//       font-family:'Lobster Two',cursive;
-//       font-size:3rem;
-//      }
 
-// `;
-// const NavLink=styled(NavLink)`
-//   // display:flex;
-//   // position:relative;
-//   // left:50%;
-//   // // flex-direction:column;
-//   // // justify-content:right;
-//   // // align-items:right;
-//   // border:1px solid orange;
-//   // border-radius:50%;
-//   // // margin-left:1rem;
-//   // text-decoration:none;
-//   // width:6rem;
-//   // height:6rem;
-//   // cursor:pointer;
-//   // transform:scale(0.8);
-//   // overflow:hidden;
-
-//       img{
-//         width:6rem;
-//         height:6rem;
-//         border-radius:50%;
-//         object-fit:cover;
-//       }
-// `;
-// const List=styled.div`
-//   position:relative;
-//   left:20%;
-//   top:20%;
-//   display:flex;
-// //  justify-content:center;
-// //  margin:2rem 0rem;
-// //  align-content:right;
-// `;
-// const Button=styled.div`
-//   margin:20px;
-// `;
 const Div =styled.div`
   display:flex;
   
 `;
-// const Grid=styled.div`
-//    display:grid;
-//    grid-template-columns:repeat(auto-fit, minmax(25rem,2fr));
-//    grid-gap:3rem;
-//    align-item:center;
-//    padding-left:5%;
-//    padding-top:2rem;
-//    width:63%;
-//    overflow-y:scroll;
-//    height:700px;
-//    border:2px solid gray;
-// `;
-// const CardHeader=styled.div` 
-//    display:flex;
-//    background-color:black;
-//    width:100%;
-//    height:12rem;
-//    margin:2rem 0 0rem 0;
-       
-//       svg{
-//         color:orange;
-//         font-size:4rem;
-//         position:relative;
-//         left:8%;
-//         top:30%;
-//       }
-// `;
-// const Cardimage=styled.div`
-//   width:37%;
-//   height:700px;
-  
-//      img{
-//        width:100%;
-//        height:100%;
-//      }
-// `;
-// const CardAction=styled.div`
-//   img{
-//     width:80%;
-//     border-radius:2rem;
 
-// }
-// `;
 export default Cardcon

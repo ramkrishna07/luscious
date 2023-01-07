@@ -82,11 +82,7 @@ function Footer() {
   )
 }
 
-const Div=styled.div`
-  background-color:black;
-  padding:0 15%;
-  
-`;
+
 const linkStyle = {
   textDecoration: "none",
   color: 'orange',

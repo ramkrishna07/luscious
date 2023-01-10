@@ -1,6 +1,5 @@
 {
   "name": "my_recipe",
-  "homepage": "https://ramkrishna07.github.io/luscious",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
